@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Umair</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- YouTube Channel Notification -->
+  <div class="youtube-notification" id="youtube-notification">
+    <div class="youtube-notification__content">
+      <button class="youtube-notification__close" id="youtube-close" aria-label="Close notification">×</button>
+      <div class="youtube-notification__icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M23.498 6.186a2.972 2.972 0 0 0-2.096-2.104C19.739 3.636 12 3.636 12 3.636s-7.739 0-9.402.446a2.972 2.972 0 0 0-2.096 2.104A31.69 31.69 0 0 0 0 12a31.69 31.69 0 0 0 .502 5.814 2.972 2.972 0 0 0 2.096 2.104c1.664.446 9.402.446 9.402.446s7.739 0 9.402-.446a2.972 2.972 0 0 0 2.096-2.104A31.69 31.69 0 0 0 24 12a31.69 31.69 0 0 0-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+      </div>
+      <h3 class="youtube-notification__title">Welcome to My YouTube Channel!</h3>
+      <p class="youtube-notification__text">5ive Trend brings you the top 5 trending topics from around the world!
+      From viral news and tech updates to lifestyle, facts, and entertainment — stay updated, stay ahead.
+      Subscribe for daily trends! 🚀</p>
+      <a href="https://www.youtube.com/@5ivetrend-786-u4u" target="_blank" class="youtube-notification__btn btn btn--primary">Visit Channel</a>
+    </div>
+    <div class="youtube-notification__overlay"></div>
+  </div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">M.Umair</a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#hero" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__gradient"></div>
+        <div class="hero__grid"></div>
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__greet">Hi, I'm</p>
+          <h1 class="hero__title">Muhammad Umair</h1>
+          <p class="hero__tagline">I'm a <span class="hero__typed" id="hero-typed"></span><span class="hero__cursor">|</span></p>
+          <p class="hero__desc">I build digital experiences that are fast, accessible, and beautiful.</p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">View my work</a>
+            <a href="#contact" class="btn btn--outline">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero__image-wrap">
+          <img src="umair.png" alt="Muhammad Umair" class="hero__image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <div class="hero__image-placeholder" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span class="hero__scroll-text">Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <span class="section__label reveal">01 — About</span>
+        <h2 class="section__title reveal">About me</h2>
+        <div class="about__grid">
+          <div class="about__image-wrap reveal">
+            <div class="about__image">
+              <img src="umair.png" alt="Muhammad Umair" class="about__photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <div class="about__image-placeholder" aria-hidden="true"></div>
+              <div class="about__image-glow"></div>
+            </div>
+          </div>
+          <div class="about__text">
+            <p class="about__lead reveal">I'm a developer and designer based anywhere, focused on building things for the web.</p>
+            <p class="reveal">I love turning ideas into clean code and intuitive interfaces. When I'm not coding, I'm probably exploring new tools or sketching ideas.</p>
+            <p class="reveal">I believe in minimal design, performance, and accessibility for everyone.</p>
+            <a href="#contact" class="btn btn--primary reveal">Let's talk</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="education section" id="education">
+      <div class="container">
+        <span class="section__label reveal">02 — Education</span>
+        <h2 class="section__title reveal">Education</h2>
+        <div class="timeline__list">
+          <div class="timeline__item reveal">
+            <span class="timeline__date">2025 — 2029</span>
+            <span class="timeline__badge">Currently</span>
+            <h3 class="timeline__title">BSCS — Bachelor of Science in Computer Science</h3>
+            <p class="timeline__company">FAST-NUCES Islamabad</p>
+            <p class="timeline__desc">Pursuing undergraduate degree in Computer Science.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <span class="timeline__date">2023 — 2025</span>
+            <span class="timeline__badge timeline__badge--completed">Completed</span>
+            <h3 class="timeline__title">Intermediate — Pre-Engineering</h3>
+            <p class="timeline__company">Chenab College Jhang</p>
+            <p class="timeline__desc">Completed FSc in Pre-Engineering from Chenab College, Jhang.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="stats section">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stat reveal">
+            <span class="stat__value" data-count="5">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label">Years experience</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__value" data-count="30">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label">Projects delivered</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__value" data-count="20">0</span><span class="stat__suffix">+</span>
+            <span class="stat__label">Happy clients</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="services section" id="services">
+      <div class="container">
+        <span class="section__label reveal">03 — What I do</span>
+        <h2 class="section__title reveal">Services</h2>
+        <div class="services__grid">
+            <div class="service-card reveal">
+            <div class="service-card__icon">◆</div>
+            <h3>Web Development</h3>
+            <p>I’m a web developer who builds clean, responsive, and user-friendly websites with a focus on performance and design.
+            I build a website using WordPress...</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-card__icon">⌘</div>
+            <h3>Digital Marketing</h3>
+            <p>I’m a digital marketer focused on growing brands through data-driven strategies and creative campaigns.I help businesses increase reach, engagement, and conversions across digital platforms.</p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-card__icon">◇</div>
+            <h3>Content Creator</h3>
+            <p>I’m a content creator who crafts engaging content with a focus on creativity, storytelling, and visual impact.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <span class="section__label reveal">04 — Skills</span>
+        <h2 class="section__title reveal">Skills & tools</h2>
+        <div class="skills__grid">
+          <div class="skill-card reveal">
+            <span class="skill-card__icon">◆</span>
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, WordPress</p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-card__icon">◇</span>
+            <h3>Programming</h3>
+            <p>C++, C</p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-card__icon">○</span>
+            <h3>Microsoft</h3>
+            <p>Word, Access, Excel, PowerPoint</p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-card__icon">◆</span>
+            <h3>Tools</h3>
+            <p>Git, VS Code, terminal, build tools</p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-card__icon">◇</span>
+            <h3>Soft Skills</h3>
+            <p>Problem solving, teamwork, communication</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline section" id="experience">
+      <div class="container">
+        <span class="section__label reveal">05 — Journey</span>
+        <h2 class="section__title reveal">Experience</h2>
+        <div class="timeline__list">
+          <div class="timeline__item reveal">
+            <span class="timeline__date">2025 — Present</span>
+            <h3 class="timeline__title">Game Developer</h3>
+            <p class="timeline__company">FAST-NUCES Islamabad</p>
+            <p class="timeline__desc">Building game using only C++ for best C++ experiences.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <span class="timeline__date">2025 — Present</span>
+            <h3 class="timeline__title">Designer</h3>
+            <p class="timeline__company">FAST-NUCES Islamabad</p>
+            <p class="timeline__desc">UI design, prototypes, and design systems for clients across industries.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <span class="timeline__date">2025 — Present</span>
+            <h3 class="timeline__title">Junior Developer</h3>
+            <p class="timeline__company">Startup / First role at FAST-NUCES Islamabad</p>
+            <p class="timeline__desc">Learned the ropes: HTML, CSS, WordPress and shipping real projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <span class="section__label reveal">06 — Work</span>
+        <h2 class="section__title reveal">Projects</h2>
+        <div class="projects__grid">
+          <article class="project-card reveal">
+            <div class="project-card__thumb">
+              <img src="tumblepop.jpg" alt="Tumble POP Game" class="project-card__img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');" />
+              <div class="project-card__overlay"></div>
+            </div>
+            <h3 class="project-card__title">Tumble POP</h3>
+            <p class="project-card__desc">A modern Tumble POP game with clean and smooth interactions.</p>
+            <div class="project-card__tags">
+              <span>C++</span>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-card__thumb">
+              <img src="iict.jpg" alt="Web Design Project" class="project-card__img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');" />
+              <div class="project-card__overlay"></div>
+            </div>
+            <h3 class="project-card__title">Web design</h3>
+            <p class="project-card__desc">Dashboard and analytics interface for data visualization.</p>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact__container">
+        <span class="section__label reveal">07 — Contact</span>
+        <h2 class="section__title reveal">Get in touch</h2>
+        <div class="contact__grid">
+          <div class="contact__left reveal">
+            <p class="contact__lead">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+            <div class="contact__info">
+              <a href="mailto:muhammadumairfast123@gmail.com" class="contact__info-item">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </span>
+                <span>muhammadumairfast123@gmail.com</span>
+              </a>
+              <a href="tel:+923137199327" class="contact__info-item">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <span>+92 3137199327</span>
+              </a>
+              <div class="contact__info-item">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </span>
+                <span>Islamabad, Pakistan</span>
+              </div>
+            </div>
+            <div class="contact__social" aria-label="Social links">
+              <a href="https://www.linkedin.com/in/muhammad-umair-469445380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact__social-link" aria-label="LinkedIn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+          
+              <a href="https://web.facebook.com/profile.php?id=61586141194974" target="_blank" class="contact__social-link" aria-label="Facebook">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.675 0h-21.35C.597 0 0 .598 0 1.333v21.333C0 23.402.597 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116c.728 0 1.324-.598 1.324-1.333V1.333C24 .598 23.403 0 22.675 0z"/>
+              </svg>
+              </a>
+
+              <!-- <a href="https://www.instagram.com/fast_umair?igsh=b3Fobzh6YnUxYXM0" target="_blank" class="contact__social-link" aria-label="Instagram">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.337 3.608 1.312.975.975 1.25 2.242 1.312 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.337 2.633-1.312 3.608-.975.975-2.242 1.25-3.608 1.312-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.337-3.608-1.312-.975-.975-1.25-2.242-1.312-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.849c.062-1.366.337-2.633 1.312-3.608C4.52 2.57 5.787 2.295 7.153 2.233 8.418 2.175 8.798 2.163 12 2.163zm0-2.163C8.741 0 8.332.012 7.052.07 5.766.128 4.603.396 3.603 1.396 2.603 2.396 2.335 3.559 2.277 4.845 2.219 6.126 2.207 6.535 2.207 12s.012 5.874.07 7.155c.058 1.286.326 2.449 1.326 3.449 1 .999 2.163 1.268 3.449 1.326 1.281.058 1.69.07 7.155.07s5.874-.012 7.155-.07c1.286-.058 2.449-.326 3.449-1.326 1-.999 1.268-2.163 1.326-3.449.058-1.281.07-1.69.07-7.155s-.012-5.874-.07-7.155c-.058-1.286-.326-2.449-1.326-3.449C19.657.396 18.494.128 17.208.07 15.926.012 15.517 0 12 0zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3. 999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+              </svg>
+              </a> -->
+
+              <a href="https://www.youtube.com/@5ivetrend-786-u4u" class="contact__social-link" target="_blank" aria-label="YouTube">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.186a2.972 2.972 0 0 0-2.096-2.104C19.739 3.636 12 3.636 12 3.636s-7.739 0-9.402.446a2.972 2.972 0 0 0-2.096 2.104A31.69 31.69 0 0 0 0 12a31.69 31.69 0 0 0 .502 5.814 2.972 2.972 0 0 0 2.096 2.104c1.664.446 9.402.446 9.402.446s7.739 0 9.402-.446a2.972 2.972 0 0 0 2.096-2.104A31.69 31.69 0 0 0 24 12a31.69 31.69 0 0 0-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+              </a>
+              
+            </div>
+          </div>
+          <form class="contact__form" id="contact-form">
+            <div class="contact__row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div class="contact__row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com" />
+            </div>
+            <div class="contact__row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Your message"></textarea>
+            </div>
+            <!-- <a href i251009@is.nu.edu.pk><button type="submit" class="btn btn--primary">Send message</button> -->
+            <button type="submit" class="btn btn--primary">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© <span id="year"></span> Muhammad Umair. All Reserved Keywords.</p>
+    </div>
+  </footer>
+
+  <a href="#hero" class="footer__back" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
